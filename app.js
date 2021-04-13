@@ -13,6 +13,7 @@ app.post('/uploadimage',(req,res)=>{
     if(req.files)
     {
         console.log(req.files);
+        res.send('file upload working!!')
     //     var params = {
     //         Bucket: "imagestoreopenforum",
     //         Key:
